@@ -2,14 +2,8 @@
   "manifest_version": 2,
 
   "name": "rgb2hex",
-  "description": "RGB値をCSSのHEX情報に変換するためだけのツール",
+  "description": "RGBからHEXに変換する",
   "version": "1.0",
-
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
-  "permissions": [
-    "https://secure.flickr.com/"
-  ]
+  "devtools_page": "devtools.html",
+  "web_accessible_resources": ["*"]
 }
